@@ -1,0 +1,91 @@
+body {
+  background-color: #333;
+  background-image: url("../images/golfBackground.jpg");
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  padding-top: 80px; 
+}
+
+#wrapper {
+  background-color: white;
+  opacity: .4;
+  height: 500px;
+  width: 1600px;
+  position: absolute;
+  top: 45px;
+  z-index: -1;
+}
+
+h1 {
+  margin-top: 60px;
+  margin-left: 130px;
+  font-family: verdana;
+  color: rgba(255, 255, 255, .9);
+  display: none;
+}
+
+.rowTitle {
+  width: 60px;
+  text-align: left;
+}
+
+table {
+  border-collapse:collapse;
+  margin-left: 100px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  opacity: .8;
+  box-shadow: 2px 2px 2px #333;
+  box-shadow: 16px;
+}
+
+table, td {
+}
+
+td {
+  padding-left: 10px;
+  width: 20px;
+  height: 25px;
+}
+
+td.rowCell {
+  text-align: center;
+  padding: 0; 
+}
+td.rowCell:hover {
+  background: #333;
+  opacity: 1;
+  color: white;
+}
+
+button {
+  margin-left: 180px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.scorecardTitle {
+  background: green;
+  color: white; 
+  font-family: verdana;
+  font-size: 30px;
+  border-radius: 16px 16px 0 0;
+}
+
+.rounded {border-radius: 16px 16px 0 0;}
+
+
+.hide {display: none;}
+
+.hole {background-color: orange; opacity: .9;}
+.par {background-color: lightBlue;}
+
+.player1 {background-color: yellow; opacity: .8; border-bottom: 1px solid lightBlue; border-top: 1px solid lightBlue;}
+.player2 {background-color: yellow; opacity: .8; border-bottom: 1px solid lightBlue; border-top: 1px solid lightBlue;}
+.player3 {background-color: yellow; opacity: .8; border-bottom: 1px solid lightBlue; border-top: 1px solid lightBlue;}
+
+input {width: 20px;}
+
